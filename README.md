@@ -4,9 +4,8 @@
   `npm install vue-xhr --save `
 # import 
 **es6**
-```
 import xhr from "vue-xhr";
-```
+
 **amd**
 require("vue-xhr",function(xhr){
     
