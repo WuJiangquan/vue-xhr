@@ -1,6 +1,6 @@
 {
   "name": "vue-xhr",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "axios and jsonp",
   "main": "index.js",
   "scripts": {
