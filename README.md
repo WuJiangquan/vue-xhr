@@ -8,8 +8,6 @@
 import xhr from "vue-xhr";
 ```
 **amd**
-
-```
 require("vue-xhr",function(xhr){
     
 })
