@@ -1,0 +1,15 @@
+{
+  "name": "vue-xhr",
+  "version": "1.0.0",
+  "description": "axios and jsonp",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "jsonp": "^0.2.1"
+  }
+}
