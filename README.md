@@ -1,4 +1,4 @@
-**"vue-xhr"**  is a adapter for axios and jsonp
+**"vue-xhr"**  is an adapter for axios and jsonp
 ```
 # install
   `npm install vue-xhr --save `
