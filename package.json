@@ -9,7 +9,7 @@
   "keywords": ["vue","ajax","xhr","axios","jsonp","post","get","params"],
   "author": "Wujiangquan",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "axios": "^0.18.0",
     "jsonp": "^0.2.1"
   }
