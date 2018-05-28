@@ -6,7 +6,8 @@
   "scripts": {
     "test": "test"
   },
-  "author": "",
+  "keywords": ["vue","ajax","xhr","axios","jsonp","post","get","params"],
+  "author": "Wujiangquan",
   "license": "ISC",
   "devDependencies": {
     "axios": "^0.18.0",
