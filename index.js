@@ -3,10 +3,10 @@ import axios from "axios";
 
 
 export let convertParamToString = function(params) {
-    var str = "?";
-    var paramArray = [];
-    for (var key in params) {
-        var param = key + "=" + params[key];
+    let str = "?";
+    let paramArray = [];
+    for (let key in params) {
+        let param = key + "=" + params[key];
         paramArray.push(param);
     }
     paramArray.push("callback");
@@ -30,7 +30,7 @@ export let post = function(action, params) {
 
 export let getJSON = function(action, params) {
     return new Promise((resolve, reject) => {
-        var paramStr = convertParamToString(params || {});
+        let paramStr = convertParamToString(params || {});
         jsonp(action, {
             prefix: "jsonpCallback",
             param: paramStr
@@ -70,9 +70,9 @@ export let get = function(action, params){
 }
 
 export let getHrefParam = function(paramName, newHref) {
-    var href = newHref || window.location.search.substr(1);
-    var reg = new RegExp("(^|&)" + paramName + "=([^&]*)(&|$)");
-    var matchResult = href.match(reg);
-    var param = matchResult ? decodeURI(matchResult[2]) : "";
+    let href = newHref || window.location.search.substr(1);
+    let reg = new RegExp("(^|&|\\?)" + paramName + "=([^&]*)(&|$)");
+    let matchResult = href.match(reg);
+    let param = matchResult ? decodeURI(matchResult[2]) : "";
     return param;
 }
